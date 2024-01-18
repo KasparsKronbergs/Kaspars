@@ -1,1 +1,12 @@
-# Kaspars
+# Projekts
+Sveiki, mani sauc Kaspars Kronbergs apl.nr. 231RDB365. 
+Mans projekta uzdevums ir automatizēt darbības, lai bez liekām piepūlēm es varētu iegūt sev vēlamo rezultātu. Es esmu profesionāls volejbolists un pārstāvu volejbola komandu RTU/Robežsardze Jūrmala. Mēs spēlējam Baltijas līgā, jeb Cronimet League 23/24. Šo līgu pārstāv 8 komandas. Mums spēles notiek katras gandrīz katras brīvdienas un rezultāti mainās ar katru spēli. Es, kā profesionāls volejbolists uz katru spēli sagatavojos. Es izpētu pretinieku spēlētājus pēc viņu statistikas, lai man būtu vieglāk spēlēt un komandai būtu lielāka iespēja uzvarēt. Šis projekts man palīdz to izdarīt ātri un precīzi.
+
+# Projekta uzdevums
+Projektā sākumā ir ievietotas nepieciešamās python bibliotēkas, kas palīdz veikt šo uzdevumu. Kad visas nepieciešamas bibliotēkas ir ievietotas, tad es ievietoju url linku, kuru man automātiski atvers un no kurienes es sākšu savu uzdevumu. Tā kā ieejot mājaslapā uzreiz viss neatveras, programmai ir likts apstāties un 2 sekundēm. Lielāko daļu mājaslapas izmanto informāciju, ko cilvēks var sniegt, tāpēc sākuma lapā parādas teksts ar kuru var to apstiprināt, lai man pašam tas nebūtu jādara. Programmatūra to izdara automātiski. Pēc šīs darbības tiek atvērts spēļu kalendārs, kur ir redzams spēļu grafiks vīriešiem un sievietēm. Esmu iedevis 15 sekundes, lai varu apskatīties, kādas spēles notiks tuvākajā laikā. Pēc 15 sekundēm programma automātiski uzspiež uz uzrakstu "Līgas un čempionāti", kur parādas vairākas līgas un čempionāti, kur piedalās Latviešu komandas. Tā kā, komanda kurā es spēlēju spēlē Baltijas līgā Vīriešiem 2023/2024, programma automātiski uz tās uzspiež un atver doto informāciju. Kad programma atver doto darbību ir dota sekunde, lai ielādētos nepieciešamā informācija un tad tiek spiests uz teksta "SPĒLĒTĀJI". Pēc šīs darbības man parādas visi spēlētāji, kuri spēlē iepriekšminētajā līgā. Ierakstot meklēšanās lodziņā varu atrast spēlētāju, par kuru es vēlos iegūt informāciju. 
+
+# Bibliotēkas
+Viss darbs tiek programmēts Python valodā un kā arī tiek izmantota Python bibliotēka. Tiek izmantota Selenium bibliotēka, kura palīdz automatizēt mūsu prasīto uzdevumu interneta pārlūkā. Selenieum webdriver, tas palīdz mums palaist interneta pārlūkā mūsu prasīto uzdevumu. Tiek importēta bibliotēka Time, kura mums ļauj programmai uz doto laiku iepauzēt savu darbību. Service ļaus mums uzsākt darbu ar interneta pārlūku. Kodā tiek izmantota "By" palīdzība, kura liek saprast, kāda veidā tiks lasīta informācija.
+
+# Izmantošanas metodes
+Šo projektu es varu izmantot, lai apskatītu, kādas volejbola spēles notiek tuvākajā laikā. Varu apskatīt cita spēlētāju satistiku un kā arī savu statistiku.
